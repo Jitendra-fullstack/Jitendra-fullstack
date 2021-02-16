@@ -1,57 +1,196 @@
 <!doctype html>
 <html>
-  <head>
-      <title>
-      	slider with js
-      </title>
-      <link rel="stylesheet" type="text/css" href="css/style.css">
-      
-  </head>
-  <body>
-  	 <div class="slider">
-  	 	<div id="box">
-  	 		<img src="1.jpg">
-  	 		<!--Button for control slider-->
-             <button class="prew" onclick="prewImage()">-</button>
-             <button class="next" onclick="nextImage()">+</button>
-  	 	</div>
-  	 </div>
-
-
-  	 <script type="text/javascript">
-             var slider_content=document.getElementById('box');
-             var image=['2','3','4','5'];
-            
-             var i=image.length;
-
-
-             function nextImage(){
-                   if(i<image.length){
-                       i=i+1;
-                   }
-                   else{
-                   	   i=1;
-                   }
-
-              slider_content.innerHTML="<img src="+image[i+1]+".jpg>";
-
-             }
-
-
-             function prewImage(){
-
-             	     if(i<image.length+1 && i>1){
-                       i=i-1;
-                   }
-                   else{
-                   	   i=image.length;
-                   }
-
-              slider_content.innerHTML="<img src="+image[i-1]+".jpg>";
-             }
-
-
-
-           </script>
-  </body>	
+<head>
+    <title>
+	     Mobile App Development Company in Austin, Tx - Snyxius
+	</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="css/style.css" rel="stylesheet">
+	<link href="css/media-query.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link href="css/bootstrap.css" rel="stylesheet">
+	<link href="css/custom.css" rel="stylesheet">
+	<link href="css/mediaquary.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+</head>
+<body>
+    <main>
+	    <header>
+		    <div class="container-fluid">
+			 <div class="nav-top">
+			  <div class="row">
+			    <div class="col-md-4">
+				    <div class="logo">
+				        <img src="img/snyxiuslogo_logo.png" class="syn-logo"/>
+					 </div>
+				</div>
+				<div class="col-md-8">
+				    <div class="col-md-12">
+					   <div class="navigation">
+							<ul class="nav navbar-nav">
+								<li>
+									<a href="">
+									    COMPANY
+									</a>
+								</li>
+								<li>
+								    <a href="#">
+									    SERVICE
+									</a>
+								</li>
+								<li>
+								    <a href="">
+									    WORK
+									</a>
+								</li>
+								<li>
+								    <a href="#">
+									    BLOG
+									</a>
+								</li>
+								<li>
+								    <a href="#">
+									     CONTACT
+									</a>
+								</li>
+								<li class="last-botton">
+								   <a href="#">
+										<span> 
+											Start a Project
+										</span>
+								   </a>
+								
+								</li>
+							</ul>
+						</div>
+				    </div>
+				  </div>
+				</div>
+			  </div>
+			</div><!--end-container-fluid-->
+		</header>
+		<article>
+		    <div class="container">
+			    <div class="row">
+				    <div class="col-md-12">
+					    <div class="article-heading icon">
+						     <h1 class="text-center">we build & scale software products for</h1>
+							 <h1 class="text-center">innovative companies</h1>
+							 
+							 <p class="text-center">
+							  Snyxius is a mobile app development company that works with companies looking to disrupt their space or solve a
+							  </p>
+							  <p class="text-center">complex business problem with innovative tech solutions</p>
+						</div>
+					</div>
+				</div>
+				
+				<div class="row">
+				    <div class="icon">
+						  <div class="col-md-4">
+							 <div class="icon-mobile">
+							   <div class="text-center">
+							      <i class="fa fa-mobile-phone" style="font-size:48px;color:blue"></i>
+								  <h2>Mobile</h2>
+								</div>
+							 </div>
+						  </div>
+						  <div class="col-md-4">
+							 <div class="icon-watch">
+							   <div class="text-center">
+							    <i class="fa fa-clock-o" style="font-size:48px;color:blue"></i>
+								 <h2 class="text-center">IOT & Wearables</h2>
+								 </div>
+							 </div> 
+						  </div>
+						  <div class="col-md-4">
+						     <div class="icon-web">
+							   <div class="text-center">
+									 <i class="fa fa-desktop" style="font-size:48px;color:blue"></i>
+									 <h2 class="text-center">Web</h2>
+								 </div>
+							  </div> 
+				         </div>
+					</div>
+					<div class="col-md-12">
+					    <div class="text-center conversation icon">
+						   <a href="#">
+								STRAT A CONVERSATION  <span class="glyphicon glyphicon-chevron-right"></span>
+						   </a>	
+						</div>
+					</div>
+				</div>
+			</div><!--end-container-->
+		    <section><!--start 2nd section-->
+			    <div>
+				    <div class="bc-image">
+					    <div class="bc-containt">
+						    <div class="container-2">
+								<h2 class="">
+									 Developing since 2008
+								</h2>
+								<div class="col-md-6 bigger">
+								  <p>
+								     600+  
+								  </p>
+								   <p>
+								     Project  
+								  </p>
+								</div>
+								<div class="col-md-6 bigger">
+								    <p>
+								     600+  
+								  </p>
+								  <p>
+								     Client  
+								  </p>
+								</div>
+								<div class="clearfix"></div>
+							</div>
+							<div class="container-3">
+							    <div class="container-3-para">
+								    <p>
+									    With over a decade of experience in custom software development, we touch millions of people through solutions developed by us. With that kind of impact, we take it on ourselves as our duty to transform lives and make the world a better place through our quality and purpose-driven work.
+									</p>
+								</div>
+							</div>
+						</div>   
+					</div>
+				</div>
+			</section><!--end 2nd section-->
+			<section><!--Strat 3nd section-->
+			    <div class="container">
+				    <div class="container-4">
+					    <div class="col-md-6">
+						     <div class="text-1"> 
+							     <h2>
+								    Startups: Prototype &amp; MVP Development
+								 </h2>
+								 <div class="text-1">
+									 <p>
+										 Looking to disrupt an industry or build the next big thing? We can help you build a minimum viable product and get to market quickly. We take startups from idea to market within 3-6 months and help them validate it.
+									 </p>
+								 </div>
+							 </div>
+							    <div class="btn-container">
+									
+										<a href="#" class="" data-title="Startups - MVP Development" title="Startups - MVP Development">
+											 Learn More
+										</a>
+									
+							    </div>
+						</div>
+						<div class="col-md-6">
+						    <img src="img/startup-development-uai-720x495.png" Style="width:100%;height: 300px"/> 
+						</div>
+						<div class="clearfix"></div>
+					</div>
+				</div>
+			</section><!--end 3nd section-->
+		
+		</article>
+	</main>
+</body>
 </html>
